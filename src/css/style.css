@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;700&display=swap");
+html {
+  font-size: 1rem;
+  color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  background-color: #121417;
+  font-family: "Overpass", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body #rating-area {
+  background-color: #202731;
+  width: 420px;
+  height: 420px;
+  border-radius: 30px;
+  padding: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html body #rating-area .star-area {
+  margin-bottom: 25px;
+}
+
+html body #rating-area .star-area .icon-star {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #232f34;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body #rating-area .star-area .icon-star:before {
+  content: url(/src/assets/icon-star.svg);
+  position: absolute;
+}
+
+html body #rating-area .title-area {
+  margin-bottom: 25px;
+}
+
+html body #rating-area .title-area span {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+html body #rating-area .title-area p {
+  line-height: normal;
+  color: #959eac;
+}
+
+html body #rating-area .rating-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+html body #rating-area .rating-number input[type=radio] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+html body #rating-area .rating-number label {
+  background-color: #232f34;
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+html body #rating-area .rating-number label:hover {
+  background-color: #7c8798;
+}
+
+html body #rating-area .button-area .btn {
+  width: 100%;
+  padding: 15px 0px;
+  border-radius: 30px;
+  background-color: #fb7413;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.2rem;
+}
+
+html body #rating-area .button-area .btn:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+html body #rating-area #thankYou {
+  display: none;
+  text-align: center;
+}
+
+html body #rating-area #thankYou .imgBlock {
+  width: 100%;
+  height: 15ch;
+  background: url(/src/assets/illustration-thank-you.svg) no-repeat center;
+}
+
+html body #rating-area #thankYou p {
+  color: #959eac;
+}
+
+html body #rating-area #thankYou p.message {
+  width: 100%;
+  max-width: 25ch;
+  margin: 0 auto;
+  padding: .2rem;
+  background-color: rgba(124, 135, 152, 0.2);
+  color: #fb7413;
+  border-radius: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
