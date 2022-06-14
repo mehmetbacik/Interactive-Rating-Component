@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interactive Rating Component</title>
+        <link rel="icon" type="image/x-icon" href="../src/assets/favicon.png">
+        <link rel="stylesheet" href="../src/css/style.css">
+    </head>
+    <body>
+        <div id="rating-area">
+            <form id="formrating">
+                <div class="star-area">
+                    <i class="icon-star"></i>
+                </div>
+                <div class="title-area">
+                    <span>How did we do?</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, tempore incidunt doloremque modi.</p>
+                </div>
+                <div class="rating-number">
+                    <label for="rate1" class="opt">1</label>
+                    <input type="radio" name="rate" id="rate1" value="1" />
+                    <label for="rate2" class="opt">2</label>
+                    <input type="radio" name="rate" id="rate2" value="2" />
+                    <label for="rate3" class="opt">3</label>
+                    <input type="radio" name="rate" id="rate3" value="3" />
+                    <label for="rate4" class="opt">4</label>
+                    <input type="radio" name="rate" id="rate4" value="4" />
+                    <label for="rate5" class="opt">5</label>
+                    <input type="radio" name="rate" id="rate5" value="5" />
+                </div>
+                <div class="button-area">
+                    <input type="submit" class="btn" value="Submit" id="submitBtn" />
+                </div>
+            </form>
+            <div id="thankYou" class="card">
+                <div class="imgBlock"></div>
+                <p class="message">
+                  You selected <span class="userValue">0</span> out of 5
+                </p>
+                <h2>Thank you!</h2>
+                <p>
+                  We appreciate you taking the time to give a rating. If you ever need
+                  more support, don’t hesitate to get in touch!
+                </p>
+            </div>
+        </div>
+        <script src="../src/js/script.js" ></script>
+    </body>
+</html>
+
+
